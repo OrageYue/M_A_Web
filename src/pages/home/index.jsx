@@ -9,6 +9,7 @@ import ROW_LOWER from '../../assets/row_lower.png';
 
 import TopicCard from '../../component/TopicCard/index.jsx'
 import Schedule from '../m_schedule/index.jsx';
+import CONTACT_US from '../../assets/contact_us.png';
 
 import { Parallax ,Element} from 'rc-scroll-anim';
 import { debounce } from '../../utils/common.js';
@@ -69,8 +70,8 @@ function Home ( props ) {
                     />
                 </div>
             </div>
-            <div id="M_content" style={ { top: "200",  minHeight: document.body.clientHeight } }>
-
+            <div id="M_content" style={ { top: "200", minHeight: document.body.clientHeight } }>
+                <img src={ CONTACT_US } onClick={ () => props.history.push( '/service')} style={ {width:"50px",right:"20",position:"fixed",bottom:"40"} }/>
                 { isVisibleTips ?
                     <div className="M_tips">
                         <div className="M_tips_title">
@@ -86,6 +87,8 @@ function Home ( props ) {
                     </div>
                 }
             </div>
+
+
         </div>
     )
 }
