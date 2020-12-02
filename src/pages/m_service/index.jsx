@@ -18,7 +18,7 @@ function HotelService () {
            </div>
           
             <div style={ {  background:"#ffffff",  } } className='container' id='container' style={ mapStyle }>
-            <p style={ { fontSize: "24px" ,color:"#23B5FE"} }>会议助手</p> 
+            <p style={ { fontSize: "24px" ,color:"#23B5FE"} }>联系我们</p> 
             <hr style={ {margin:"0 20px"} } color="#f5f5f5"/>
             <p style={{fontSize:"22px"}}>岳鑫 <small style={{color:"#23B5FE",fontSize:"18px"}}>15607688773</small> </p> 
             <p style={{fontSize:"22px"}}>范佳琪  <small style={{color:"#23B5FE",fontSize:"18px"}}>15607688773</small> </p> 
