@@ -1,0 +1,48 @@
+{
+  "name": "m_a_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.prod.config.js",
+    "start:dev": "webpack serve --progress --config build/webpack.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/runtime": "^7.12.5",
+    "@babel/runtime-corejs2": "^7.12.5",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "0.0.7",
+    "babel-loader": "^8.2.1",
+    "echarts": "^4.9.0",
+    "echarts-for-react": "^2.0.16",
+    "history": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "rc-scroll-anim": "^2.7.6",
+    "react": "^17.0.1",
+    "react-amap": "^1.2.8",
+    "react-amap-plugin-geolocation": "^0.0.2",
+    "react-dom": "^17.0.1",
+    "react-file-viewer": "^1.2.1",
+    "react-hot-loader": "^4.13.0",
+    "react-pdf": "^5.0.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

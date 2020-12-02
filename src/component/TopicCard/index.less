@@ -1,0 +1,49 @@
+.Topic_card_title_in{
+    animation: 1.5s linear appear;
+    -webkit-animation: 1.5s linear appear;
+}
+
+.Topic_card_title_out{
+    animation: 1.5s ease-in out;
+    -webkit-animation: 1.5s ease-in out;
+}
+
+.Topic_tool{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.Topic_tool_item{
+    flex:1;
+    color:#23B5FE;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes out{
+   from{
+       opacity: 0;
+   }
+   to{
+       opacity: 1;
+   }
+}
