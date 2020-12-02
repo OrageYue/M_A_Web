@@ -15,7 +15,6 @@ import { hot } from 'react-hot-loader';
 function AppRouter (props) {
     return (
         <BrowserRouter>
-
             <div>
                 <Suspense fallback={ <div>加载中</div> }>
                     <Switch>

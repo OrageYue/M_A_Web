@@ -41,17 +41,21 @@ function Home ( props ) {
         if ( scrollTop >= 322 )
         {
             M_card.style.position = "fixed";
-            M_card.style.top = "22%";
+            M_card.style.top = "80px";
+            M_card.style.width="100%"
+            M_card.style.margin="0"
              // 到达指定位置,禁止滚动
-            document.body.style.overflow = "hidden";
+            // document.body.style.overflow = "hidden";
              // 禁止滚动后监听内容区域，如果有触摸事件，恢复滚动
-            M_content.addEventListener( "touchmove", ( e ) => {
-                document.body.style.overflow = "";
-                M_card.style = "position:absolute";
-            } );
+            // M_content.addEventListener( "touchmove", ( e ) => {
+            //     document.body.style.overflow = "";
+            //     M_card.style = "position:absolute";
+            // } );
             //展示操作工具
             setIsVisibleTool(true)
-        } else
+        }
+        
+        else if ( scrollTop > 60 && scrollTop <= 300 )
         {
             M_card.style = "position:absolute";
             setIsVisibleTool(false)
@@ -65,7 +69,7 @@ function Home ( props ) {
 
                 <img id="M_circle_out_img" className={isVisibleTool?'main_circle_out_img':'main_circle_out_img_v'} src={ CIRCLE_OUTSIDE } />
                 <img id="M_circle_in_img" className={isVisibleTool?'main_circle_in_img':'main_circle_in_img_v'}  src={IN_OUTSIDE} />
-                <img className="main_logo_img"  src={BJ_LOGO} />
+                {/* <img className="main_logo_img"  src={BJ_LOGO} /> */}
                 <div id="M_card" className="main_white_card">
                     <TopicCard
                         isVisibleTool={isVisibleTool}
@@ -84,17 +88,10 @@ function Home ( props ) {
                         </div>
                     </div>                    
                     :
-                    <Schedule/>
+                    <div>
+                        <Schedule />
+                    </div>
                 }
-
-            {/* <li> <Link to="/schedule">会议日程</Link></li>
-            <li> <Link to="/invitation">邀请函</Link></li>
-            <li> <Link to="/register">信息登记</Link></li>
-            <li> <Link to="/navigation">会议导航</Link></li>
-            <li> <Link to="/service">酒店服务</Link></li>
-            <li> <Link to="/weather">天气预报</Link></li>
-            <li> <Link to="/tips">温馨提示</Link></li>
-            <li> <Link to="/pick">接送方案</Link></li> */}
             </div>
         </div>
     )
