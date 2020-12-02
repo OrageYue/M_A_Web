@@ -12,7 +12,7 @@ function TimerLiner () {
     return (
         <div style={{marginTop:"20px"}}>
             <img src={ PDF_1 } style={ { width: "100%" } } />
-            <img src={ PDF_2 } style={ { width: "100%" ,marginTop:"5px"} } />
+            <img src={ PDF_2 } style={ { width: "100%" } } />
             <img src={ PDF_3 } style={ { width: "100%" } } />
             <img src={ PDF_4 } style={ { width: "100%" } } />
             <img src={ PDF_5 } style={ {width:"100%"} }/>
