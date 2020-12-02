@@ -10,7 +10,6 @@ const MWeather = React.lazy( () => import( './pages/m_weather/index.jsx' ) );//�
 const MTips = React.lazy( () => import( './pages/m_tips/index.jsx' ) );//温馨提示
 const MPick = React.lazy( () => import( './pages/m_pick/index.jsx' ) );//接送方案
 const Home = React.lazy( () => import( './pages/home/index.jsx' ) );//首页
-import { hot } from 'react-hot-loader';
 
 function AppRouter (props) {
     return (

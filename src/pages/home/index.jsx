@@ -44,13 +44,6 @@ function Home ( props ) {
             M_card.style.top = "80px";
             M_card.style.width="100%"
             M_card.style.margin="0"
-             // 到达指定位置,禁止滚动
-            // document.body.style.overflow = "hidden";
-             // 禁止滚动后监听内容区域，如果有触摸事件，恢复滚动
-            // M_content.addEventListener( "touchmove", ( e ) => {
-            //     document.body.style.overflow = "";
-            //     M_card.style = "position:absolute";
-            // } );
             //展示操作工具
             setIsVisibleTool(true)
         }

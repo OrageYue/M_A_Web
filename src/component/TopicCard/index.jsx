@@ -1,7 +1,6 @@
 import React from 'react';
 import './index.less';
 import ITEM_INVITATION from '../../assets/item_invitation.png';
-import ITEM_REGISTER from '../../assets/item_register.png';
 import ITEM_SERVICE from '../../assets/item_service.png';
 import ITEM_WEATHER from '../../assets/item_weather.png';
 import ITEM_LIVE from '../../assets/item_live.png'
