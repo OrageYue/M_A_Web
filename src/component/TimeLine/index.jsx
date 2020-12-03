@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.less';
-import PDF_1 from '../../assets/pdf_1.png';
-import PDF_2 from '../../assets/pdf_2.png';
-import PDF_3 from '../../assets/pdf_3.png';
-import PDF_4 from '../../assets/pdf_4.png';
-import PDF_5 from '../../assets/pdf_5.png';
+import PDF_1 from '../../assets/pdf_1_1.png';
+import PDF_2 from '../../assets/pdf_2_1.png';
+import PDF_3 from '../../assets/pdf_3_1.png';
+import PDF_4 from '../../assets/pdf_4_1.png';
+import PDF_5 from '../../assets/pdf_5_1.png';
 import PDF_6 from '../../assets/pdf_6.png';
 function TimerLiner () {
     return (
