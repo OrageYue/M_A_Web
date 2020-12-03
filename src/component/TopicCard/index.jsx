@@ -30,10 +30,10 @@ function TopicCard(props) {
                                 <img src={ ITEM_SERVICE } style={ {width:"34px"} }/>
                                 <p>地图导航</p>
                             </div>
-                             <div onClick={()=>props.history.push('/pick')} className="Topic_tool_item">
+                             {/* <div onClick={()=>props.history.push('/pick')} className="Topic_tool_item">
                                 <img src={ ITEM_LIVE } style={ {width:"34px"} }/>
                                 <p>会议直播</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 :
