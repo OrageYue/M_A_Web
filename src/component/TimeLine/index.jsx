@@ -14,7 +14,7 @@ function TimerLiner () {
             <img src={ PDF_3 } style={ { width: "100%" } } />
             <img src={ PDF_4 } style={ { width: "100%" } } />
             <img src={ PDF_5 } style={ {width:"100%"} }/>
-            <img src={ PDF_6 } style={ {width:"100%"} }/>
+            {/* <img src={ PDF_6 } style={ {width:"100%"} }/> */}
         </div>
     )
 };
