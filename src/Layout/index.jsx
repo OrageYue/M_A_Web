@@ -14,7 +14,6 @@ function Layout (props) {
          <BrowserRouter>
             <Suspense fallback={ <div>加载中</div> }>
                     <Switch>
-                      
                         <Route exact path="/schedule" component={ MSchedule } />
                         <Route exact path="/invitation" component={ MInvitation } />
                         <Route exact path="/register" component={ MRegister } />

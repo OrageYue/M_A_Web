@@ -14,7 +14,9 @@ function TopicCard(props) {
                 props.isVisibleTool ?
                     <div style={{textAlign:"center",display:"flex",flexDirection:"column", alignItems:"center"}}>
                          <p style={{fontSize:"20px",color:"#23B5FE"}}>
-                            “国际和区域海洋安全秩序构建与治理”学术研讨会
+                            “国际和区域海洋安全秩序构建与治理”
+                            <br/>
+                            学术研讨会
                         </p>
                            {/* 工具区域 */ }
                         <div style={{width:"100%"}} className="Topic_tool">
@@ -44,6 +46,7 @@ function TopicCard(props) {
                             </span> </p>
                             <p style={{fontSize:"18px",color:"#23B5FE",margin:0}}>
                                 “国际和区域海洋安全秩序构建与治理”
+                                
                             </p>
                             <p style={{fontSize:"18px",color:"#23B5FE",textAlign:"center"}}> 学术研讨会</p>
                         </div>
